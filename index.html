@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prisca Sokiane | Développeuse Full Stack & Mobile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Prisca<span>Sokiane</span></h1>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Salut, je suis <span>Prisca Sokiane</span></h2>
+      <p>Développeuse <strong>Full Stack & Mobile</strong> passionnée par la création d’expériences numériques modernes et performantes.</p>
+      <a href="#projects" class="btn">Voir mes projets</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>À propos de moi</h2>
+    <p>
+      Je suis une développeuse web et mobile créative et rigoureuse. 
+      J’aime concevoir des applications intuitives, performantes et accessibles, du front-end au back-end.
+      Mon objectif : transformer des idées en solutions technologiques concrètes.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Compétences</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><h3>Front-End</h3><p>HTML, CSS, JavaScript, React, Vue.js</p></div>
+      <div class="skill-card"><h3>Back-End</h3><p>Node.js, Express, PHP, Laravel, Python</p></div>
+      <div class="skill-card"><h3>Mobile</h3><p>React Native, Flutter</p></div>
+      <div class="skill-card"><h3>Base de données</h3><p>MySQL, MongoDB, PostgreSQL</p></div>
+      <div class="skill-card"><h3>Outils & DevOps</h3><p>Git, Docker, CI/CD, Firebase</p></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Mes projets</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Projet 1">
+        <h3>Application E-commerce</h3>
+        <p>Une plateforme de vente en ligne moderne avec React et Node.js.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Projet 2">
+        <h3>App Mobile Fitness</h3>
+        <p>Application de suivi sportif réalisée avec React Native et Firebase.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/400x250" alt="Projet 3">
+        <h3>Dashboard d’administration</h3>
+        <p>Interface de gestion intuitive développée avec Vue.js et Laravel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Tu veux collaborer ou en savoir plus sur mes projets ? N’hésite pas à me contacter 👇</p>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Votre nom" required>
+      <input type="email" id="email" placeholder="Votre email" required>
+      <textarea id="message" placeholder="Votre message..." required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+    <p class="success-message" id="success-message"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Prisca Sokiane — Tous droits réservés.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
